@@ -1,0 +1,5 @@
+package com.hibernate.app.main;
+
+public class App {
+
+}
