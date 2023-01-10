@@ -79,6 +79,18 @@ public class App {
 						break;
 					case 3: 
 						System.out.println("Employee Deletion");
+						System.out.println("Enter employee ID to delete record");
+						int id = sc.nextInt();
+						//fetch Object from ID 
+						Employee emp = entityManager.find(Employee.class, id);
+						//delete the employee
+						if(emp == null) {
+							System.out.println("Employee with ID " + id + "does not exist");
+						}
+						else {
+							entityManager.remove(emp);
+							System.out.println("Employee with ID " + id + " deleted from the DB");
+						}
 						break;
 					case 4: 
 						System.out.println("Employee Updation");
