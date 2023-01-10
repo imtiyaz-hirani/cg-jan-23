@@ -1,12 +1,15 @@
 package com.hibernate.app.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity /* This annotation will tell hibernate to create a table "employee" */
 public class Employee {
 
 	@Id  /* This annotation will make this ID a Primary key  */
+	@GeneratedValue(strategy = GenerationType.AUTO) /* This will auto-increment ID */
 	private int id; 
 	
 	private String name; 
@@ -45,6 +48,11 @@ public class Employee {
 
 	public void setContact(String contact) {
 		this.contact = contact;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", email=" + email + ", contact=" + contact + "]";
 	} 
 	
 	
