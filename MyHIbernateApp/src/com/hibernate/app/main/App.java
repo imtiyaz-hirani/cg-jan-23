@@ -82,6 +82,7 @@ public class App {
 						System.out.println("Enter employee ID to delete record");
 						int id = sc.nextInt();
 						//fetch Object from ID 
+						entityTransaction.begin();
 						Employee emp = entityManager.find(Employee.class, id);
 						//delete the employee
 						if(emp == null) {
@@ -91,9 +92,37 @@ public class App {
 							entityManager.remove(emp);
 							System.out.println("Employee with ID " + id + " deleted from the DB");
 						}
+						entityTransaction.commit();
 						break;
 					case 4: 
 						System.out.println("Employee Updation");
+						System.out.println("Enter employee ID to update record");
+						id = sc.nextInt();
+						//fetch Object from ID 
+						entityTransaction.begin();
+						emp = entityManager.find(Employee.class, id);
+						if(emp == null) {
+							System.out.println("Employee with ID " + id + "does not exist");
+						}
+						else {
+							System.out.println("Employee Details \n" + emp);
+							System.out.println("Enter New Values");
+							System.out.println("Enter Name:");
+							sc.nextLine();
+							name = sc.nextLine();
+							System.out.println("Enter Email ");
+							email = sc.next();
+							System.out.println("Enter Contact");
+							contact = sc.next();
+							/*Attach all inputs to Employee Object */
+							emp.setName(name);
+							emp.setContact(contact);
+							emp.setEmail(email);
+							
+							entityManager.persist(emp);
+							entityTransaction.commit();
+							System.out.println("Employee record updated in DB...");
+						}
 						break;
 					default: 
 						System.out.println("Invalid Input");
