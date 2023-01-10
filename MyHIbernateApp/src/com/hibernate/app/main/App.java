@@ -7,9 +7,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-import javax.persistence.Query;
 
+import com.hibernate.app.model.College;
 import com.hibernate.app.model.Employee;
+import com.hibernate.app.model.Student;
 
 public class App {
 	public static void main(String[] args) {
@@ -38,6 +39,10 @@ public class App {
 				System.out.println("2. Display all Employees");
 				System.out.println("3. Delete an Employee");
 				System.out.println("4. Update Employee Record");
+				System.out.println("5. Add Student Record");
+				System.out.println("6. Add College Record");
+				System.out.println("7. Fetch Students by College");
+				
 				System.out.println("0. Exit");
 				Scanner sc  = new Scanner(System.in); 
 				int input = sc.nextInt();
@@ -124,6 +129,74 @@ public class App {
 							System.out.println("Employee record updated in DB...");
 						}
 						break;
+					case 5:
+						
+						System.out.println("Enter Student Data");
+						System.out.println("Enter student name");
+						sc.nextLine(); 
+						name = sc.nextLine(); 
+						System.out.println("Enter student email");
+						email = sc.next(); 
+						System.out.println("enter college ID that student belongs to");
+						int cid = sc.nextInt();
+						
+						//Fetch college record by cid
+						College college = entityManager.find(College.class, cid);
+						if(college == null) {
+							System.out.println("college ID invalid");
+							break;
+						}
+						else {
+							Student student = new Student();
+							student.setName(name);
+							student.setEmail(email);
+							student.setCollege(college);
+							entityTransaction.begin();
+							entityManager.persist(student);
+							entityTransaction.commit();
+							System.out.println("Student record added.. ");
+						}
+						
+						break;
+					case 6: 
+						System.out.println("Enter College Data");
+						System.out.println("Enter college name");
+						sc.nextLine(); 
+						name = sc.nextLine(); 
+						System.out.println("Enter college city");
+						String city = sc.next();
+						
+						//attach values to college object
+						College c = new College();
+						c.setName(name);
+						c.setCity(city);
+						
+						//save college in db using persist
+						entityTransaction.begin();
+						entityManager.persist(c);
+						entityTransaction.commit();
+						System.out.println("college record added in DB..");
+						break;
+					case 7: 
+						System.out.println("Students Studying in College ");
+						System.out.println("Enter college id");
+						cid = sc.nextInt();
+						//fetch college using cid
+						college = entityManager.find(College.class, cid);
+						
+						if(college == null) {
+							System.out.println("Hey! college id is invalid");
+							break;
+						}
+						else {
+							List<Student> slist = entityManager
+							.createQuery("select s from Student s where s.college.id=" + cid, Student.class)
+							.getResultList();
+							System.out.println("-----------------------------------------------------------");
+							slist.stream().forEach(System.out::println);
+							System.out.println("-----------------------------------------------------------");
+						}
+						break; 
 					default: 
 						System.out.println("Invalid Input");
 						break; 
