@@ -7,6 +7,8 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
+import com.hibernate.app.model.Employee;
+
 public class App {
 	public static void main(String[] args) {
 		/*
@@ -43,7 +45,25 @@ public class App {
 				}
 				switch(input) {
 					case 1: 
-						System.out.println("Insert Employee OP");
+						/* Read Input from User */
+						System.out.println("Insert Employee Record");
+						System.out.println("Enter Name:");
+						sc.nextLine();
+						String name = sc.nextLine();
+						System.out.println("Enter Email ");
+						String email = sc.next();
+						System.out.println("Enter Contact");
+						String contact = sc.next();
+						
+						/*Attach all inputs to Employee Object */
+						Employee employee = new Employee(); //POJO: Plain Old Java Object
+						employee.setName(name);
+						employee.setContact(contact);
+						employee.setEmail(email);
+						entityTransaction.begin();
+						entityManager.persist(employee);
+						entityTransaction.commit();
+						System.out.println("Employee added to DB...");
 						break; 
 					case 2: 
 						System.out.println("Employee Records");
