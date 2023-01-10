@@ -1,11 +1,13 @@
 package com.hibernate.app.main;
 
+import java.util.List;
 import java.util.Scanner;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.persistence.Query;
 
 import com.hibernate.app.model.Employee;
 
@@ -67,6 +69,13 @@ public class App {
 						break; 
 					case 2: 
 						System.out.println("Employee Records");
+						entityTransaction.begin();
+						List<Employee> list 
+									= entityManager.createQuery("select e from Employee e", Employee.class)
+													.getResultList();
+						
+						list.stream().forEach(System.out:: println);
+						entityTransaction.commit();
 						break;
 					case 3: 
 						System.out.println("Employee Deletion");
