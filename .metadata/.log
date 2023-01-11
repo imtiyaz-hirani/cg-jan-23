@@ -1002,3 +1002,9 @@ Java Model Exception: Java Model Status [Unknown javadoc format for TODO {key=Lc
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-11 16:55:59.519
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-11 17:41:54.438
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-11 17:41:54.463
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

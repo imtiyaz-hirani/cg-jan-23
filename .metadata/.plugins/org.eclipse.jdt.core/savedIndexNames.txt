@@ -41,7 +41,6 @@ INDEX VERSION 1.131+C:\CG-JAN-2023\.metadata\.plugins\org.eclipse.jdt.core
 3274236323.index
 412051806.index
 3345350613.index
-1748414784.index
 3786865694.index
 3925490168.index
 2952488648.index
