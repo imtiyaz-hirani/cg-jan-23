@@ -12,9 +12,21 @@ public class MyController {
 	
 	@RequestMapping("/")
 	public String showDashboard() {
-		System.out.println("dashboard in controller...");
-		return "dashboard.jsp";
+		return "WEB-INF/jsps/dashboard.jsp";
 	}
 	
+	@RequestMapping("/employees")
+	public String showEmployees() {
+		return "WEB-INF/jsps/employees.jsp";
+	}
 	
+	@RequestMapping("/colleges")
+	public String showColleges() { 
+		return "WEB-INF/jsps/colleges.jsp";
+	}
+	
+	@RequestMapping("/students")
+	public String showStudents() {
+		return "WEB-INF/jsps/students.jsp";
+	}
 }
