@@ -1,164 +1,616 @@
-2023-01-06 09:55:39,982 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
-2023-01-06 12:36:49,039 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2022\MyHIbernateApp\pom.xml.
-2023-01-06 12:36:52,651 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:36:52,652 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:36:52,655 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:36:52,656 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:36:52,687 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyHIbernateApp/src
-2023-01-06 12:36:52,688 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MyHIbernateApp/src/test/java because it overlaps with /MyHIbernateApp/src
-2023-01-06 12:36:53,350 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
-2023-01-06 12:36:53,811 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2022\MyHIbernateApp\pom.xml.
-2023-01-06 12:36:54,813 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:36:54,818 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:36:54,823 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:36:54,825 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:36:54,826 [Worker-49: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
-2023-01-06 12:36:54,827 [Worker-49: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
-2023-01-06 12:36:54,835 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
-2023-01-06 12:36:54,845 [Worker-49: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:36:54,877 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyHIbernateApp/src
-2023-01-06 12:36:54,879 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MyHIbernateApp/src/test/java because it overlaps with /MyHIbernateApp/src
-2023-01-06 12:36:55,289 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for MyHIbernateApp
-2023-01-06 12:36:55,316 [Worker-50: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
-2023-01-06 12:36:55,954 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:36:55,957 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:36:55,960 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:36:55,963 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:36:55,964 [Worker-54: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
-2023-01-06 12:36:55,964 [Worker-54: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
-2023-01-06 12:36:55,974 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:41:42,900 [Worker-55: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2022\MyHIbernateApp\pom.xml.
-2023-01-06 12:41:44,942 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:41:44,943 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:41:44,945 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:41:44,946 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:41:44,946 [Worker-55: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
-2023-01-06 12:41:44,946 [Worker-55: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
-2023-01-06 12:41:44,950 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:42:32,398 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:42:32,400 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:42:32,401 [Worker-45: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:42:32,403 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:44:12,829 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:44:12,831 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:44:12,832 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:44:12,835 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:48:20,443 [Worker-60: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2022\MyHIbernateApp\pom.xml.
-2023-01-06 12:48:22,175 [Worker-60: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.pom
-2023-01-06 12:48:22,663 [Worker-60: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.pom
-2023-01-06 12:48:22,948 [Worker-60: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.jar
-2023-01-06 12:48:24,917 [Worker-60: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1.jar
-2023-01-06 12:48:25,800 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:48:25,802 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:48:25,804 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:48:25,805 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:48:25,806 [Worker-60: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
-2023-01-06 12:48:25,806 [Worker-60: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
-2023-01-06 12:48:25,811 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:48:26,970 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:48:26,971 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:48:26,972 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:48:26,974 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:48:27,625 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1-sources.jar
-2023-01-06 12:48:29,471 [Worker-60: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.1/postgresql-42.5.1-sources.jar
-2023-01-06 12:48:29,512 [Worker-60: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.postgresql:postgresql:42.5.1
-2023-01-06 12:48:29,728 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:48:29,729 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:48:29,730 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:48:29,731 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:53:18,749 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:53:18,750 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:53:18,752 [Worker-62: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:53:18,753 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:53:21,812 [Worker-63: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:53:21,814 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:53:21,816 [Worker-63: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:53:21,818 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:59:11,972 [Worker-65: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2022\MyHIbernateApp\pom.xml.
-2023-01-06 12:59:12,634 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:59:12,635 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:59:12,636 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:59:12,637 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 12:59:12,637 [Worker-65: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
-2023-01-06 12:59:12,637 [Worker-65: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
-2023-01-06 12:59:12,640 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:59:42,581 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:59:42,583 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 12:59:42,584 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 12:59:42,585 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:02:11,747 [Worker-63: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2022\MyHIbernateApp\pom.xml.
-2023-01-06 13:02:12,447 [Worker-63: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:02:12,450 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
-2023-01-06 13:02:12,451 [Worker-63: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:02:12,452 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:02:12,453 [Worker-63: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
-2023-01-06 13:02:12,454 [Worker-63: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
-2023-01-06 13:02:12,456 [Worker-63: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:02:28,834 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:02:28,845 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:02:28,850 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:02:28,851 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:02:38,278 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:02:38,280 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:02:38,282 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:02:38,283 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:03:33,995 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:03:33,997 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:03:33,999 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:03:33,999 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:03:49,169 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:03:49,171 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:03:49,172 [Worker-66: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:03:49,173 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:04:38,412 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:04:38,414 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:04:38,415 [Worker-64: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:04:38,416 [Worker-64: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:04:48,325 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:04:48,328 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:04:48,330 [Worker-65: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:04:48,331 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:05:21,413 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:05:21,415 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:05:21,417 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:05:21,418 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:15:18,952 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:15:18,955 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:15:18,959 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:15:18,962 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:15:27,826 [Worker-69: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:15:27,827 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
-2023-01-06 13:15:27,828 [Worker-69: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:15:27,830 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:15:41,147 [Worker-67: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2022\MyHIbernateApp\pom.xml.
-2023-01-06 13:15:41,857 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:15:41,858 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 13:15:41,859 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 13:15:41,860 [Worker-67: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 13:15:41,860 [Worker-67: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
-2023-01-06 13:15:41,861 [Worker-67: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
-2023-01-06 13:15:41,863 [Worker-67: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 14:14:34,618 [Worker-72: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 14:14:34,630 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 14:14:34,632 [Worker-72: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 14:14:34,633 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 14:17:44,193 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 14:17:44,194 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 14:17:44,196 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 14:17:44,198 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 15:04:09,759 [Worker-87: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:04:09,772 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 15:04:09,774 [Worker-87: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:04:09,776 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 15:06:18,264 [Worker-87: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:06:18,266 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 15:06:18,266 [Worker-87: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:06:18,267 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 15:12:24,866 [Worker-89: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:12:24,868 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 15:12:24,871 [Worker-89: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:12:24,874 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
-2023-01-06 15:15:38,772 [Worker-93: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:15:38,774 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\main\resources
-2023-01-06 15:15:38,776 [Worker-93: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-2023-01-06 15:15:38,777 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2022\MyHIbernateApp\src\test\resources
+2023-01-10 09:41:07,127 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-01-10 09:42:58,358 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\New folder\cg-jan-23\MyHIbernateApp\pom.xml.
+2023-01-10 09:43:08,298 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MyHIbernateApp/src
+2023-01-10 09:43:08,300 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MyHIbernateApp/src/test/java because it overlaps with /MyHIbernateApp/src
+2023-01-10 09:43:09,465 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 15 sec
+2023-01-10 09:43:12,739 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 09:43:12,742 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 09:43:12,746 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 09:43:12,748 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 09:45:17,245 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 09:45:17,247 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 09:45:17,248 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 09:45:17,250 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 09:57:44,017 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 09:57:44,018 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 09:57:44,019 [Worker-6: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 09:57:44,022 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:05:36,971 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:05:36,972 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:05:36,972 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:05:36,973 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:08:54,744 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:08:54,745 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:08:54,746 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:08:54,747 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:39:42,789 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:39:42,792 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:39:42,794 [Worker-30: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:39:42,796 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:42:27,315 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:42:27,317 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:42:27,319 [Worker-36: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:42:27,320 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:44:18,037 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:44:18,038 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:44:18,040 [Worker-34: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:44:18,041 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:48:24,598 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:48:24,600 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:48:24,601 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:48:24,602 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:49:16,653 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:49:16,654 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:49:16,655 [Worker-38: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:49:16,656 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:51:09,009 [Worker-35: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:51:09,011 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:51:09,012 [Worker-35: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:51:09,013 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:51:13,819 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:51:13,820 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:51:13,821 [Worker-39: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:51:13,822 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 10:57:08,569 [Worker-35: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:57:08,571 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 10:57:08,580 [Worker-35: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 10:57:08,582 [Worker-35: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 11:56:20,988 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:56:20,991 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 11:56:20,992 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:56:20,994 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 11:57:22,633 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:57:22,635 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\main\resources
+2023-01-10 11:57:22,636 [Worker-54: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:57:22,638 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 11:57:32,029 [Worker-51: Launching App] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MyHIbernateApp:MyHIbernateApp:0.0.1-SNAPSHOT @ C:\New folder\cg-jan-23\MyHIbernateApp\pom.xml.
+2023-01-10 11:57:33,408 [Worker-51: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:57:33,411 [Worker-51: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-10 11:57:33,414 [Worker-51: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:57:33,416 [Worker-51: Launching App] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 11:57:33,421 [Worker-51: Launching App] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MyHIbernateApp
+2023-01-10 11:57:33,422 [Worker-51: Launching App] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MyHIbernateApp
+2023-01-10 11:57:33,428 [Worker-51: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2023-01-10 11:57:33,437 [Worker-51: Launching App] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:59:01,647 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:59:01,659 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 11:59:01,670 [Worker-56: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 11:59:01,671 [Worker-56: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:02:31,834 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:02:31,836 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:02:31,838 [Worker-55: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:02:31,840 [Worker-55: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:06:08,059 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:06:08,061 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:06:08,062 [Worker-57: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:06:08,063 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:07:33,528 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:07:33,531 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:07:33,532 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:07:33,533 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:07:48,605 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:07:48,608 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:07:48,611 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:07:48,612 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:07:55,889 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:07:55,891 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:07:55,893 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:07:55,893 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:08:07,354 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:07,357 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:08:07,358 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:07,359 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:08:11,632 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:11,634 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:08:11,635 [Worker-50: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:11,637 [Worker-50: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:08:17,395 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:17,398 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:08:17,400 [Worker-59: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:17,402 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:08:34,404 [Worker-61: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:34,406 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:08:34,408 [Worker-61: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:08:34,409 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:10:49,320 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:10:49,323 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:10:49,325 [Worker-60: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:10:49,327 [Worker-60: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:28:42,955 [Worker-69: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:28:42,958 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:28:42,960 [Worker-69: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:28:42,961 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:32:23,007 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:32:23,010 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:32:23,012 [Worker-70: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:32:23,013 [Worker-70: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:34:12,326 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:34:12,330 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:34:12,332 [Worker-68: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:34:12,334 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:52:04,587 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:52:04,590 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:52:04,593 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:52:04,594 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:52:54,869 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:52:54,872 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:52:54,873 [Worker-75: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:52:54,874 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 12:56:15,285 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:56:15,287 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 12:56:15,288 [Worker-73: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 12:56:15,290 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 14:37:35,524 [Worker-97: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:37:35,540 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 14:37:35,542 [Worker-97: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:37:35,543 [Worker-97: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 14:37:43,442 [Worker-100: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:37:43,452 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 14:37:43,460 [Worker-100: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:37:43,464 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 14:40:48,742 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:40:48,745 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 14:40:48,746 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:40:48,748 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 14:45:26,079 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:45:26,084 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 14:45:26,085 [Worker-99: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 14:45:26,089 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 15:13:03,440 [Worker-115: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:13:03,444 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 15:13:03,446 [Worker-115: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:13:03,448 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 15:17:17,348 [Worker-119: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:17:17,351 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 15:17:17,353 [Worker-119: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:17:17,354 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 15:18:38,207 [Worker-119: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:18:38,210 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 15:18:38,213 [Worker-119: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:18:38,214 [Worker-119: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 15:37:15,509 [Worker-128: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:37:15,512 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 15:37:15,513 [Worker-128: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:37:15,514 [Worker-128: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-10 15:38:38,293 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:38:38,295 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-10 15:38:38,297 [Worker-127: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-10 15:38:38,297 [Worker-127: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-11 09:44:48,845 [Worker-189: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 09:44:48,849 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-11 09:44:48,851 [Worker-189: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 09:44:48,852 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\New folder\cg-jan-23\MyHIbernateApp\src\test\resources
+2023-01-11 09:52:40,273 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 09:52:40,622 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MySpringApp/src
+2023-01-11 09:52:40,624 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MySpringApp/src/test/java because it overlaps with /MySpringApp/src
+2023-01-11 09:52:40,962 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-11 09:52:41,013 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 09:52:41,223 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MySpringApp/src
+2023-01-11 09:52:41,223 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MySpringApp/src/test/java because it overlaps with /MySpringApp/src
+2023-01-11 09:52:41,394 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for MySpringApp
+2023-01-11 09:52:41,410 [Worker-202: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-01-11 09:52:41,537 [Worker-204: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 09:52:41,540 [Worker-204: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 09:52:41,541 [Worker-204: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 09:52:41,543 [Worker-204: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 09:52:41,544 [Worker-204: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 09:52:41,544 [Worker-204: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 09:52:42,497 [Worker-204: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:01:38,537 [Worker-210: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:01:40,219 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.3/spring-core-6.0.3.pom
+2023-01-11 10:01:40,717 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.3/spring-core-6.0.3.pom
+2023-01-11 10:01:40,981 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3.pom
+2023-01-11 10:01:41,247 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3.pom
+2023-01-11 10:01:41,510 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.3/spring-core-6.0.3.jar
+2023-01-11 10:01:44,526 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.3/spring-core-6.0.3.jar
+2023-01-11 10:01:44,797 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3.jar
+2023-01-11 10:01:45,213 [Worker-210: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3.jar
+2023-01-11 10:01:45,511 [Worker-210: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:01:45,512 [Worker-210: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:01:45,514 [Worker-210: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:01:45,515 [Worker-210: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:01:45,515 [Worker-210: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:01:45,516 [Worker-210: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:01:45,520 [Worker-210: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:01:47,492 [Worker-203: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.3/spring-core-6.0.3-sources.jar
+2023-01-11 10:01:50,072 [Worker-203: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.3/spring-core-6.0.3-sources.jar
+2023-01-11 10:01:50,118 [Worker-203: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:6.0.3
+2023-01-11 10:01:51,576 [Worker-203: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3-sources.jar
+2023-01-11 10:01:52,055 [Worker-203: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.3/spring-jcl-6.0.3-sources.jar
+2023-01-11 10:01:52,149 [Worker-203: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:6.0.3
+2023-01-11 10:01:52,411 [Worker-209: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:01:52,412 [Worker-209: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:01:52,415 [Worker-209: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:01:52,417 [Worker-209: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:06:43,218 [Worker-212: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:06:44,746 [Worker-212: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3.pom
+2023-01-11 10:06:45,270 [Worker-212: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3.pom
+2023-01-11 10:06:45,537 [Worker-212: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3.jar
+2023-01-11 10:06:47,341 [Worker-212: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3.jar
+2023-01-11 10:06:50,170 [Worker-212: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:06:50,171 [Worker-212: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:06:50,174 [Worker-212: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:06:50,175 [Worker-212: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:06:50,175 [Worker-212: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:06:50,175 [Worker-212: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:06:50,179 [Worker-212: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:06:51,005 [Worker-214: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3-sources.jar
+2023-01-11 10:06:52,624 [Worker-214: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/6.0.3/spring-beans-6.0.3-sources.jar
+2023-01-11 10:06:52,677 [Worker-214: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:6.0.3
+2023-01-11 10:06:52,900 [Worker-214: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:06:52,901 [Worker-214: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:06:52,903 [Worker-214: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:06:52,904 [Worker-214: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:09:32,505 [Worker-214: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:09:33,525 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.0.3/spring-context-6.0.3.pom
+2023-01-11 10:09:34,027 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.0.3/spring-context-6.0.3.pom
+2023-01-11 10:09:34,284 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3.pom
+2023-01-11 10:09:34,552 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3.pom
+2023-01-11 10:09:34,802 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3.pom
+2023-01-11 10:09:35,073 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3.pom
+2023-01-11 10:09:35,330 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.0.3/spring-context-6.0.3.jar
+2023-01-11 10:09:37,465 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.0.3/spring-context-6.0.3.jar
+2023-01-11 10:09:37,715 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3.jar
+2023-01-11 10:09:38,637 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3.jar
+2023-01-11 10:09:38,896 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3.jar
+2023-01-11 10:09:39,548 [Worker-214: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3.jar
+2023-01-11 10:09:40,453 [Worker-214: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:09:40,455 [Worker-214: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:09:40,458 [Worker-214: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:09:40,461 [Worker-214: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:09:40,461 [Worker-214: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:09:40,461 [Worker-214: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:09:40,467 [Worker-214: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:09:42,782 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.0.3/spring-context-6.0.3-sources.jar
+2023-01-11 10:09:44,702 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/6.0.3/spring-context-6.0.3-sources.jar
+2023-01-11 10:09:44,743 [Worker-216: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:6.0.3
+2023-01-11 10:09:46,266 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3-sources.jar
+2023-01-11 10:09:49,228 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/6.0.3/spring-aop-6.0.3-sources.jar
+2023-01-11 10:09:49,266 [Worker-216: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:6.0.3
+2023-01-11 10:09:50,244 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3-sources.jar
+2023-01-11 10:09:51,127 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/6.0.3/spring-expression-6.0.3-sources.jar
+2023-01-11 10:09:51,179 [Worker-216: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:6.0.3
+2023-01-11 10:09:51,547 [Worker-215: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:09:51,548 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:09:51,550 [Worker-215: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:09:51,552 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:11:42,231 [Worker-218: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:11:43,748 [Worker-218: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.0.3/spring-web-6.0.3.pom
+2023-01-11 10:11:44,240 [Worker-218: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.0.3/spring-web-6.0.3.pom
+2023-01-11 10:11:44,534 [Worker-218: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.0.3/spring-web-6.0.3.jar
+2023-01-11 10:11:47,773 [Worker-218: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.0.3/spring-web-6.0.3.jar
+2023-01-11 10:11:49,084 [Worker-218: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:11:49,086 [Worker-218: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:11:49,089 [Worker-218: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:11:49,091 [Worker-218: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:11:49,091 [Worker-218: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:11:49,091 [Worker-218: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:11:49,096 [Worker-218: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:11:50,787 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.0.3/spring-web-6.0.3-sources.jar
+2023-01-11 10:11:53,587 [Worker-216: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/6.0.3/spring-web-6.0.3-sources.jar
+2023-01-11 10:11:53,627 [Worker-216: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:6.0.3
+2023-01-11 10:11:53,989 [Worker-215: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:11:53,989 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:11:53,991 [Worker-215: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:11:53,992 [Worker-215: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:14:58,650 [Worker-217: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:15:00,169 [Worker-217: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3.pom
+2023-01-11 10:15:00,674 [Worker-217: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3.pom
+2023-01-11 10:15:00,942 [Worker-217: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3.jar
+2023-01-11 10:15:02,836 [Worker-217: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3.jar
+2023-01-11 10:15:03,592 [Worker-217: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:15:03,593 [Worker-217: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:15:03,595 [Worker-217: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:15:03,596 [Worker-217: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:15:03,596 [Worker-217: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:15:03,596 [Worker-217: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:15:03,601 [Worker-217: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:15:05,447 [Worker-217: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3-sources.jar
+2023-01-11 10:15:07,166 [Worker-217: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/6.0.3/spring-webmvc-6.0.3-sources.jar
+2023-01-11 10:15:07,205 [Worker-217: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:6.0.3
+2023-01-11 10:15:07,548 [Worker-222: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:15:07,549 [Worker-222: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:15:07,551 [Worker-222: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:15:07,552 [Worker-222: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:23:01,891 [Worker-220: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:23:01,894 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:23:01,896 [Worker-220: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:23:01,902 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:23:25,815 [Worker-223: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:23:25,817 [Worker-223: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:23:25,819 [Worker-223: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:23:25,822 [Worker-223: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:35:40,628 [Worker-223: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:35:40,629 [Worker-223: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:35:40,630 [Worker-223: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:35:40,631 [Worker-223: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:36:56,230 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:36:56,231 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:36:56,233 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:36:56,234 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:37:32,612 [Worker-220: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:37:32,613 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:37:32,614 [Worker-220: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:37:32,616 [Worker-220: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:38:27,696 [Worker-227: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:38:27,697 [Worker-227: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:38:27,698 [Worker-227: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:38:27,701 [Worker-227: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:38:37,013 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:38:37,014 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:38:37,016 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:38:37,017 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:39:47,305 [Worker-228: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:39:47,305 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:39:47,306 [Worker-228: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:39:47,307 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:40:11,801 [Worker-227: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-11 10:40:12,300 [Worker-227: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:40:12,914 [Worker-227: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MySpringApp/src
+2023-01-11 10:40:12,914 [Worker-227: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MySpringApp/src/test/java because it overlaps with /MySpringApp/src
+2023-01-11 10:40:13,216 [Worker-227: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for MySpringApp
+2023-01-11 10:40:13,289 [Worker-227: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-01-11 10:40:14,464 [Worker-228: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:40:14,466 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:40:14,468 [Worker-228: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:40:14,470 [Worker-228: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:40:14,471 [Worker-228: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:40:14,471 [Worker-228: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:40:14,479 [Worker-228: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:17,855 [Worker-225: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:42:18,712 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:18,714 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:42:18,715 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:18,716 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:42:18,717 [Worker-225: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:42:18,717 [Worker-225: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:42:18,722 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:19,987 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:19,989 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:42:19,991 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:19,992 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:42:37,253 [Worker-226: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-11 10:42:37,682 [Worker-226: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:42:38,301 [Worker-226: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MySpringApp/src
+2023-01-11 10:42:38,302 [Worker-226: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MySpringApp/src/test/java because it overlaps with /MySpringApp/src
+2023-01-11 10:42:38,519 [Worker-226: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for MySpringApp
+2023-01-11 10:42:38,528 [Worker-226: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-01-11 10:42:38,912 [Worker-230: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:38,913 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:42:38,915 [Worker-230: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:42:38,916 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:42:38,916 [Worker-230: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:42:38,916 [Worker-230: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:42:38,920 [Worker-230: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:43:03,494 [Worker-231: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:43:03,496 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:43:03,499 [Worker-231: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:43:03,502 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:43:27,894 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:43:27,896 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:43:27,898 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:43:27,900 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:43:36,801 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:43:36,804 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:43:36,806 [Worker-225: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:43:36,808 [Worker-225: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:45:40,706 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:40,708 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:45:40,710 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:40,710 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:45:49,080 [Worker-234: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:45:50,008 [Worker-234: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:50,010 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:45:50,011 [Worker-234: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:50,013 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:45:50,013 [Worker-234: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:45:50,013 [Worker-234: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:45:50,016 [Worker-234: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:51,323 [Worker-235: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:51,325 [Worker-235: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:45:51,326 [Worker-235: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:51,328 [Worker-235: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:45:56,062 [Worker-226: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:45:56,757 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:56,758 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:45:56,759 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:56,761 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:45:56,761 [Worker-226: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:45:56,761 [Worker-226: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:45:56,766 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:58,068 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:58,070 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:45:58,072 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:45:58,075 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:01,620 [Worker-233: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:46:02,304 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:02,305 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:02,306 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:02,307 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:02,308 [Worker-233: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:46:02,308 [Worker-233: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:46:02,311 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:03,731 [Worker-230: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:03,732 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:03,733 [Worker-230: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:03,735 [Worker-230: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:06,328 [Worker-236: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:46:07,074 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:07,075 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:07,076 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:07,078 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:07,079 [Worker-236: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:46:07,079 [Worker-236: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:46:07,084 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:08,343 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:08,345 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:08,346 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:08,348 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:13,618 [Worker-236: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:46:14,184 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:14,185 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:14,186 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:14,187 [Worker-236: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:14,187 [Worker-236: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:46:14,187 [Worker-236: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:46:14,191 [Worker-236: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:15,444 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:15,445 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:15,446 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:15,448 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:30,797 [Worker-234: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-01-11 10:46:31,251 [Worker-234: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:46:31,777 [Worker-234: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MySpringApp/src
+2023-01-11 10:46:31,777 [Worker-234: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /MySpringApp/src/test/java because it overlaps with /MySpringApp/src
+2023-01-11 10:46:31,953 [Worker-234: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for MySpringApp
+2023-01-11 10:46:31,958 [Worker-234: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2023-01-11 10:46:32,229 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:32,230 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:32,232 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:32,233 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:46:32,234 [Worker-233: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:46:32,234 [Worker-233: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:46:32,236 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:52,784 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:52,785 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:46:52,786 [Worker-226: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:46:52,787 [Worker-226: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:48:06,857 [Worker-233: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: MySpringApp:MySpringApp:0.0.1-SNAPSHOT @ C:\CG-JAN-2023\MySpringApp\pom.xml.
+2023-01-11 10:48:07,437 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:48:07,438 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:48:07,439 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:48:07,440 [Worker-233: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 10:48:07,441 [Worker-233: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of MySpringApp
+2023-01-11 10:48:07,441 [Worker-233: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for MySpringApp
+2023-01-11 10:48:07,443 [Worker-233: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:48:08,704 [Worker-234: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:48:08,705 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 10:48:08,706 [Worker-234: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 10:48:08,707 [Worker-234: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 13:00:27,356 [Worker-274: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 13:00:27,359 [Worker-274: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 13:00:27,360 [Worker-274: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 13:00:27,362 [Worker-274: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:11:58,735 [Worker-285: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:11:58,741 [Worker-285: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:11:58,742 [Worker-285: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:11:58,744 [Worker-285: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:15:06,044 [Worker-290: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:15:06,046 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:15:06,047 [Worker-290: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:15:06,048 [Worker-290: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:16:35,924 [Worker-287: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:16:35,925 [Worker-287: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:16:35,926 [Worker-287: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:16:35,927 [Worker-287: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:28:36,817 [Worker-293: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:28:36,819 [Worker-293: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:28:36,820 [Worker-293: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:28:36,821 [Worker-293: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:35:14,117 [Worker-296: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:35:14,119 [Worker-296: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:35:14,122 [Worker-296: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:35:14,129 [Worker-296: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:39:08,860 [Worker-296: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:39:08,864 [Worker-296: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:39:08,867 [Worker-296: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:39:08,871 [Worker-296: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:39:27,912 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:39:27,914 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:39:27,916 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:39:27,920 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:47:55,868 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:47:55,869 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:47:55,872 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:47:55,873 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:48:20,752 [Worker-300: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:48:20,753 [Worker-300: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:48:20,754 [Worker-300: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:48:20,755 [Worker-300: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:50:19,527 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:50:19,528 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:50:19,529 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:50:19,530 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:50:25,222 [Worker-299: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:50:25,223 [Worker-299: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:50:25,224 [Worker-299: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:50:25,225 [Worker-299: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 14:54:52,764 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:54:52,765 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 14:54:52,766 [Worker-298: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 14:54:52,767 [Worker-298: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:03:35,171 [Worker-303: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:03:35,173 [Worker-303: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:03:35,173 [Worker-303: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:03:35,174 [Worker-303: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:16:26,614 [Worker-309: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:16:26,618 [Worker-309: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:16:26,624 [Worker-309: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:16:26,626 [Worker-309: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:17:16,275 [Worker-309: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:17:16,276 [Worker-309: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:17:16,277 [Worker-309: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:17:16,279 [Worker-309: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:20:41,424 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:20:41,425 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:20:41,426 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:20:41,427 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:22:41,991 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:22:41,993 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:22:41,993 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:22:41,994 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:24:01,622 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:24:01,623 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:24:01,623 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:24:01,623 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:25:57,448 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:25:57,449 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:25:57,450 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:25:57,450 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:28:32,213 [Worker-313: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:28:32,216 [Worker-313: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:28:32,219 [Worker-313: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:28:32,221 [Worker-313: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:28:39,042 [Worker-313: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:28:39,043 [Worker-313: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:28:39,046 [Worker-313: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:28:39,048 [Worker-313: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:29:29,670 [Worker-315: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:29:29,672 [Worker-315: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:29:29,672 [Worker-315: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:29:29,673 [Worker-315: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:31:22,105 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:31:22,106 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:31:22,107 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:31:22,108 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:31:25,484 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:31:25,486 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:31:25,487 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:31:25,488 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:32:23,217 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:32:23,218 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:32:23,219 [Worker-311: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:32:23,220 [Worker-311: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:32:41,087 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:32:41,088 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:32:41,088 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:32:41,089 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:35:31,344 [Worker-315: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:35:31,345 [Worker-315: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:35:31,345 [Worker-315: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:35:31,347 [Worker-315: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:36:19,625 [Worker-316: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:36:19,626 [Worker-316: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:36:19,627 [Worker-316: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:36:19,628 [Worker-316: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:37:22,217 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:37:22,218 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:37:22,221 [Worker-308: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:37:22,222 [Worker-308: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:39:30,785 [Worker-317: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:39:30,786 [Worker-317: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:39:30,787 [Worker-317: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:39:30,789 [Worker-317: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\test\resources
+2023-01-11 15:39:35,438 [Worker-314: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-11 15:39:35,442 [Worker-314: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CG-JAN-2023\MySpringApp\src\main\resources
+2023-01-11 15:39:35,443 [Worker-314: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,0 +1,6 @@
+package com.spring.app.main;
+
+
+public class AppInitializer {
+
+}

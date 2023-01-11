@@ -1,0 +1,12 @@
+package com.spring.app.main;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@Configuration
+public class ServletConfig implements WebMvcConfigurer{
+
+	static {
+		System.out.println("servlet config loaded...");
+	}
+}

@@ -1,0 +1,23 @@
+package com.spring.app.main.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MyController {
+
+	static {
+		System.out.println("controller....");
+	}
+	@RequestMapping("/")
+	public String showDashboard() {
+		System.out.println("dashboard in controller...");
+		return "WEB-INF/jsps/dashboard.jsp";
+	}
+	
+	@RequestMapping("/employee")
+	public String showEmployees() {
+		System.out.println("show employee in controller called..");
+		return "WEB-INF/jsps/employee.jsp";
+	}
+}

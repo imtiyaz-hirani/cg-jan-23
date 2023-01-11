@@ -1,5 +1,0 @@
-package com.hibernate.app.model;
-
-public class Employee {
-
-}

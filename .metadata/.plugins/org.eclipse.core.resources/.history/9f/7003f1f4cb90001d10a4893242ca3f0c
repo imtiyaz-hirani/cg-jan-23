@@ -1,0 +1,197 @@
+package com.hibernate.app.main;
+
+import java.util.List;
+import java.util.Scanner;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.hibernate.app.model.College;
+import com.hibernate.app.model.Employee;
+import com.hibernate.app.model.Student;
+
+public class App {
+	public static void main(String[] args) {
+		/*
+		 * Step 1: Reach out to persistence.xml [mydb]
+		 * Step 2: Create EntityManager: this helps me create tables using classes
+		 * Step 3: Initiate transaction for queries
+		 */
+		
+		try {
+			//STEP 1
+			EntityManagerFactory entityManagerFactory 
+					= Persistence.createEntityManagerFactory("mydb");
+			
+			//STEP 2
+			EntityManager entityManager 
+					= entityManagerFactory.createEntityManager();
+			
+			//STEP 3
+			EntityTransaction entityTransaction 
+					= entityManager.getTransaction();
+			
+			while(true) {
+				System.out.println("------Hibernate Operations------");
+				System.out.println("1. Insert Employee Record");
+				System.out.println("2. Display all Employees");
+				System.out.println("3. Delete an Employee");
+				System.out.println("4. Update Employee Record");
+				System.out.println("5. Add Student Record");
+				System.out.println("6. Add College Record");
+				System.out.println("7. Fetch Students by College");
+				
+				System.out.println("0. Exit");
+				Scanner sc  = new Scanner(System.in); 
+				int input = sc.nextInt();
+				if(input == 0 ) {
+					System.out.println("Exiting.. Bye..");
+					break;
+				}
+				switch(input) {
+					case 1: 
+						/* Read Input from User */
+						System.out.println("Insert Employee Record");
+						System.out.println("Enter Name:");
+						sc.nextLine();
+						String name = sc.nextLine();
+						System.out.println("Enter Email ");
+						String email = sc.next();
+						System.out.println("Enter Contact");
+						String contact = sc.next();
+						
+						/*Attach all inputs to Employee Object */
+						Employee employee = new Employee(); //POJO: Plain Old Java Object
+						employee.setName(name);
+						employee.setContact(contact);
+						employee.setEmail(email);
+						entityTransaction.begin();
+						entityManager.persist(employee);
+						entityTransaction.commit();
+						System.out.println("Employee added to DB...");
+						break; 
+					case 2: 
+						System.out.println("Employee Records");
+						entityTransaction.begin();
+						List<Employee> list 
+									= entityManager.createQuery("select e from Employee e", Employee.class)
+													.getResultList();
+						
+						list.stream().forEach(System.out:: println);
+						entityTransaction.commit();
+						break;
+					case 3: 
+						System.out.println("Employee Deletion");
+						System.out.println("Enter employee ID to delete record");
+						int id = sc.nextInt();
+						//fetch Object from ID 
+						entityTransaction.begin();
+						Employee emp = entityManager.find(Employee.class, id);
+						//delete the employee
+						if(emp == null) {
+							System.out.println("Employee with ID " + id + "does not exist");
+						}
+						else {
+							entityManager.remove(emp);
+							System.out.println("Employee with ID " + id + " deleted from the DB");
+						}
+						entityTransaction.commit();
+						break;
+					case 4: 
+						System.out.println("Employee Updation");
+						System.out.println("Enter employee ID to update record");
+						id = sc.nextInt();
+						//fetch Object from ID 
+						entityTransaction.begin();
+						emp = entityManager.find(Employee.class, id);
+						if(emp == null) {
+							System.out.println("Employee with ID " + id + "does not exist");
+						}
+						else {
+							System.out.println("Employee Details \n" + emp);
+							System.out.println("Enter New Values");
+							System.out.println("Enter Name:");
+							sc.nextLine();
+							name = sc.nextLine();
+							System.out.println("Enter Email ");
+							email = sc.next();
+							System.out.println("Enter Contact");
+							contact = sc.next();
+							/*Attach all inputs to Employee Object */
+							emp.setName(name);
+							emp.setContact(contact);
+							emp.setEmail(email);
+							
+							entityManager.persist(emp);
+							entityTransaction.commit();
+							System.out.println("Employee record updated in DB...");
+						}
+						break;
+					case 5:
+						
+						System.out.println("Enter Student Data");
+						System.out.println("Enter student name");
+						sc.nextLine(); 
+						name = sc.nextLine(); 
+						System.out.println("Enter student email");
+						email = sc.next(); 
+						System.out.println("enter college ID that student belongs to");
+						int cid = sc.nextInt();
+						
+						//Fetch college record by cid
+						College college = entityManager.find(College.class, cid);
+						if(college == null) {
+							System.out.println("college ID invalid");
+							break;
+						}
+						else {
+							Student student = new Student();
+							student.setName(name);
+							student.setEmail(email);
+							student.setCollege(college);
+							entityTransaction.begin();
+							entityManager.persist(student);
+							entityTransaction.commit();
+							System.out.println("Student record added.. ");
+						}
+						
+						break;
+					case 6: 
+						System.out.println("Enter College Data");
+						System.out.println("Enter college name");
+						sc.nextLine(); 
+						name = sc.nextLine(); 
+						System.out.println("Enter college city");
+						sc.nextLine(); 
+						String city = sc.nextLine();
+						
+						//attach values to college object
+						College c = new College();
+						c.setName(name);
+						c.setCity(city);
+						
+						//save college in db using persist
+						entityTransaction.begin();
+						entityManager.persist(c);
+						entityTransaction.commit();
+						System.out.println("college record added in DB..");
+						break;
+					case 7: 
+						break; 
+					default: 
+						System.out.println("Invalid Input");
+						break; 
+					}
+			}
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+}
