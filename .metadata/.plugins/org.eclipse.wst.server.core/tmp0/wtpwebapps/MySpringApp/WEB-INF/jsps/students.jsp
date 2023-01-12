@@ -8,5 +8,9 @@
 </head>
 <body>
 <h1>All Students</h1>
+<%
+	String sname = (String)request.getAttribute("sname");
+	out.println(sname);
+%>
 </body>
 </html>

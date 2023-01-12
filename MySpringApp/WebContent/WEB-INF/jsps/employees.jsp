@@ -8,5 +8,23 @@
 </head>
 <body>
 <h1>All Employees</h1>
+<% 
+int x=5;
+int y=10; 
+out.println(x+y);
+%>
+ 
+ <hr>
+ <%
+ 	String value = (String)request.getAttribute("msg");
+ 	double priceVal = (double) request.getAttribute("price");
+ 	out.println(value);
+ 	out.println(priceVal);
+ %>
 </body>
 </html>
+
+<!--  
+Java Code 
+HTML Code + CSS
+ -->
