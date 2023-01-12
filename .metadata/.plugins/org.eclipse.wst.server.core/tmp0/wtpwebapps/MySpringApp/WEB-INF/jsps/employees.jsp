@@ -42,6 +42,20 @@ int y=10;
  		out.print(e + "<BR>");
  	}
  %>
+ 
+ <h3>Enter Employee Details</h3>
+ <fieldset style="width: 30%">
+ <legend>Employee Details</legend>
+ <form action="${pageContext.request.contextPath}/add-employee" method="POST">
+ 	<label>Name: </label>
+ 	<input type="text" name="ename"> <br /> <br />
+ 	<label>City: </label> 
+ 	<input type="text" name="ecity"> <br /> <br />
+ 	<label>Salary: </label> 
+ 	<input type="number" name="esalary"> <br /> <br />
+ 	<input type="submit" value="Add Employee">
+ </form>
+ </fieldset> 
 </body>
 </html>
 

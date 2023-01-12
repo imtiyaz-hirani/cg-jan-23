@@ -44,9 +44,9 @@ int y=10;
  %>
  
  <h3>Enter Employee Details</h3>
- <fieldset style="width: 30%">
+ <fieldset>
  <legend>Employee Details</legend>
- <form action="${pageContext.request.contextPath}/add-employee" method="POST">
+ <form action="" method="">
  	<label>Name: </label>
  	<input type="text" name="ename"> <br /> <br />
  	<label>City: </label> 

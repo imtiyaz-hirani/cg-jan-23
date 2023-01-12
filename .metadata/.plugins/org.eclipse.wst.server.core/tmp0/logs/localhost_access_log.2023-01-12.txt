@@ -19,3 +19,4 @@
 0:0:0:0:0:0:0:1 - - [12/Jan/2023:11:30:19 +0530] "GET /MySpringApp/students HTTP/1.1" 200 170
 0:0:0:0:0:0:0:1 - - [12/Jan/2023:11:43:47 +0530] "GET /MySpringApp/colleges HTTP/1.1" 200 243
 0:0:0:0:0:0:0:1 - - [12/Jan/2023:11:50:23 +0530] "GET /MySpringApp/students HTTP/1.1" 200 241
+0:0:0:0:0:0:0:1 - - [12/Jan/2023:12:48:50 +0530] "GET /MySpringApp/employees HTTP/1.1" 200 534

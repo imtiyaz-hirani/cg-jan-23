@@ -44,18 +44,11 @@ int y=10;
  %>
  
  <h3>Enter Employee Details</h3>
- <fieldset style="width: 30%">
- <legend>Employee Details</legend>
- <form action="${pageContext.request.contextPath}/add-employee" method="POST">
+ <form action="" method="">
  	<label>Name: </label>
- 	<input type="text" name="ename"> <br /> <br />
- 	<label>City: </label> 
- 	<input type="text" name="ecity"> <br /> <br />
- 	<label>Salary: </label> 
- 	<input type="number" name="esalary"> <br /> <br />
- 	<input type="submit" value="Add Employee">
+ 	<label>City: </label>
+ 	<label>Salary: </label>
  </form>
- </fieldset> 
 </body>
 </html>
 
