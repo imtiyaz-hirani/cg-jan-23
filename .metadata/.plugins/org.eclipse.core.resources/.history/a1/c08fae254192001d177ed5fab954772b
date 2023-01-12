@@ -45,8 +45,6 @@ public class MyController {
 		List<String> list = new ArrayList<>();
 		list.add("ronald weasley");
 		list.add("hermione granger");
-		
-		mav.addObject("slist", list);
 		return mav; 
 		
 	}

@@ -12,5 +12,13 @@
 	String cname = (String)request.getAttribute("collegeName");
 %>
 <%=cname %>
+<h3>Array Iteration</h3>
+<%
+	String[] sarry = (String[])request.getAttribute("sarry");
+	for(String s : sarry){
+		out.print(s + "<BR>");
+	}
+%>
+
 </body>
 </html>

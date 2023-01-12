@@ -21,6 +21,17 @@ int y=10;
  %>
  <%=value %> 
  <%=priceVal %> 
+ 
+ <h3>Array Iteration</h3>
+ <% 
+ Integer[] iarry = (Integer[])request.getAttribute("iarry");
+ 
+ for(Integer i :iarry){ 
+	 out.print(i + "--");
+ }
+ %>
+ 
+ 
 </body>
 </html>
 
