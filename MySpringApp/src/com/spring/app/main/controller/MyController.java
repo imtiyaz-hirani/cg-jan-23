@@ -10,6 +10,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.spring.app.main.model.Employee;
+import com.spring.app.main.service.EmployeeService;
+
 @Controller
 public class MyController {
 	//IoC: Inversion of Control 
@@ -19,12 +22,16 @@ public class MyController {
 	}
 	
 	@RequestMapping("/employees")
-	public String showEmployees(Model model) { //dependency injection
+	public String showEmployees(Model model, EmployeeService employeeService) { //dependency injection
 		//I want to pass some data to employees.jsp
 		model.addAttribute("msg", "hello");
 		model.addAttribute("price", 20000.0);
 		Integer[] iarry = new Integer[]{1,2,3,4,5,6,7};
 		model.addAttribute("iarry", iarry);
+		
+		List<Employee> list = employeeService.getList();
+		model.addAttribute("list", list);
+		
 		return "WEB-INF/jsps/employees.jsp";
 	}
 	 

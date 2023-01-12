@@ -16,7 +16,8 @@
 
 <h3>List Iteration</h3>
 <%
-	List<String> list = (List<String>) request.getAttribute("slist");
+	List<String> list = 
+			(List<String>) request.getAttribute("slist");
 	 for(String s : list){
 		 out.print(s + " *** ");
 	 }

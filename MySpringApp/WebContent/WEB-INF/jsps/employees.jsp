@@ -1,3 +1,5 @@
+<%@page import="com.spring.app.main.model.Employee"%>
+<%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -31,7 +33,15 @@ int y=10;
  }
  %>
  
+ <h3>Employee List</h3>
  
+ <%
+ 	List<Employee> list = (List) request.getAttribute("list");
+ 
+ 	for(Employee e : list){ 
+ 		out.print(e + "<BR>");
+ 	}
+ %>
 </body>
 </html>
 
