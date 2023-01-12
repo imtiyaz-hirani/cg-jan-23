@@ -75,15 +75,4 @@ public class MyController {
 		String cpath = request.getContextPath();
 		return "redirect: "+ cpath + "/employees";
 	}
-	
-	
-	@RequestMapping("/sample-link")
-	public String sampleLink(@RequestParam("name") String name,
-							 @RequestParam("city") String city
-							,HttpServletRequest request) {
-		System.out.println(name);
-		System.out.println(city);
-		String cpath = request.getContextPath();
-		return "redirect: "+ cpath + "/students";
-	}
 }

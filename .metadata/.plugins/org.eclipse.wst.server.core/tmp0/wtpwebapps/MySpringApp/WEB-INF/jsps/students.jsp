@@ -22,5 +22,13 @@
 		 out.print(s + " *** ");
 	 }
 %>
+
+<h3>Reading Data from URL</h3>
+<a href="${pageContext.request.contextPath }/sample-link?name=sachin&city=mumbai">
+	Sample Link</a> <br />
+<!--  
+name=sachin,
+city=mumbai
+ -->
 </body>
 </html>
