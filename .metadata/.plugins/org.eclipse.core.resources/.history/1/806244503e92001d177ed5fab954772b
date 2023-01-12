@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>All Students</h1>
+<h1>All Colleges</h1>
 <%
-	String sname = (String)request.getAttribute("sname");
+	String cname = (String)request.getAttribute("collegeName");
+	out.println(cname);
 %>
-<%=sname %>
 </body>
 </html>

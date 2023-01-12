@@ -11,16 +11,16 @@
 <% 
 int x=5;
 int y=10; 
+out.println(x+y);
 %>
-<%=x+y %> 
+ 
  <hr>
  <%
  	String value = (String)request.getAttribute("msg");
  	double priceVal = (double) request.getAttribute("price");
- 
+ 	out.println(value);
+ 	out.println(priceVal);
  %>
- <%=value %> 
- <%=priceVal %> 
 </body>
 </html>
 
