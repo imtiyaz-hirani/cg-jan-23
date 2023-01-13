@@ -82,11 +82,7 @@ public class RestController {
 	}
 	
 	@RequestMapping(value="/api/employee/delete", method = RequestMethod.DELETE)
-	public ResponseEntity<String> deleteEmployee(
-			@RequestParam(name = "id", required = false, defaultValue = "0") int id) {
-		if(id == 0) {
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Hey, Valid ID needed..");
-		}
+	public ResponseEntity<String> deleteEmployee(@RequestParam("id") int id) {
 		employeeService.deleteEmployee(id);
 		return ResponseEntity.status(HttpStatus.OK).body("Employee deleted..");
 	}

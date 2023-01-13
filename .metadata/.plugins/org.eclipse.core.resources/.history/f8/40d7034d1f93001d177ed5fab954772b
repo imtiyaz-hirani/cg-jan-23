@@ -25,13 +25,7 @@ public class EmployeeService {
 
 	public void saveEmployee(Employee employee) {
 		// go to DB and save this employee
-		System.out.println("employee data inserted in db " + employee);
-	}
-
-	public void deleteEmployee(int id) {
-		// go to DB and delete this employee
-		System.out.println("Employee with ID: " + id + " deleted.");
-		
+		System.out.println("employee data inserted in db");
 	}
 
 	
