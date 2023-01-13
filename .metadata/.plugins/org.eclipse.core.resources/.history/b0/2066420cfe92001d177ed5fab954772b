@@ -1,0 +1,5 @@
+package com.spring.app.main.rest;
+
+public class RestController {
+
+}

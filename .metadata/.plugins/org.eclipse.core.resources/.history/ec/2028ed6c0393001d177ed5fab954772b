@@ -1,0 +1,12 @@
+package com.spring.app.main.rest;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@org.springframework.web.bind.annotation.RestController
+public class RestController {
+
+	@RequestMapping("/api/hello")
+	public String helloApi() {
+		return "Hello Rest Api";
+	}
+}
