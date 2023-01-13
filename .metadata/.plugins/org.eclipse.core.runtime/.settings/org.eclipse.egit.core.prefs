@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\New folder\\cg-jan-23\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\New folder\\cg-jan-23\\.git;
+GitRepositoriesView.GitDirectories=C\:\\CG-JAN-2023\\.git;C\:\\New folder\\cg-jan-23\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\New folder\\cg-jan-23\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

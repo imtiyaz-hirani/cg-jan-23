@@ -18,3 +18,10 @@
 0:0:0:0:0:0:0:1 - - [13/Jan/2023:12:41:44 +0530] "GET /MySpringApp/api/employee/one/1 HTTP/1.1" 200 74
 0:0:0:0:0:0:0:1 - - [13/Jan/2023:12:41:49 +0530] "GET /MySpringApp/api/employee/one/3 HTTP/1.1" 200 78
 0:0:0:0:0:0:0:1 - - [13/Jan/2023:12:42:09 +0530] "GET /MySpringApp/api/employee/one/4 HTTP/1.1" 400 16
+0:0:0:0:0:0:0:1 - - [13/Jan/2023:14:19:46 +0530] "POST /MySpringApp/api/employee/add HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [13/Jan/2023:14:20:32 +0530] "POST /MySpringApp/api/employee/add HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [13/Jan/2023:14:20:48 +0530] "POST /MySpringApp/api/employee/add HTTP/1.1" 200 16
+0:0:0:0:0:0:0:1 - - [13/Jan/2023:14:46:00 +0530] "DELETE /MySpringApp/api/employee/delete?id=3 HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [13/Jan/2023:14:46:47 +0530] "DELETE /MySpringApp/api/employee/delete HTTP/1.1" 400 868
+0:0:0:0:0:0:0:1 - - [13/Jan/2023:14:51:42 +0530] "DELETE /MySpringApp/api/employee/delete HTTP/1.1" 400 22
+0:0:0:0:0:0:0:1 - - [13/Jan/2023:14:52:05 +0530] "DELETE /MySpringApp/api/employee/delete?id=3 HTTP/1.1" 200 18
