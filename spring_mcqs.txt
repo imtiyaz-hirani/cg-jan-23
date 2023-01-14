@@ -1,0 +1,181 @@
+1. Which is the interface that is used to connect to persistence unit defined in persistence.xml file that has DB settings in Hibernate application. 
+(Select One)
+
+a. EntityManager
+b. EntityTransaction
+c. EntityConnection
+d. EntityManagerFactory
+
+Ans: d
+ 
+2. Which method is used to save the data in the database in Hibernate application. 
+Note: <E> represents the Entity to be saved. 
+(Select One)
+
+a. EntityManager.save(<E>)
+b. EntityManager.insert(<E>)
+c. EntityManager.persist(<E>)
+d. None of the above 
+
+ANS: c
+
+3. Which is the correct annotation that could define the column constraint as NOT NULL in Javax persistence API(JPA)
+(Select One)
+
+a. @Column(null=false)
+b. @Column(name="<cname>" NOT NULL)
+c. @Column(nullable = false)
+d. @NOTNULL
+
+ANS: c
+
+4. Which annotation can be used to make hibernate auto increment the ID(primary key). 
+(Select One)
+
+a. @GenetationValue("AUTO")
+b. @GeneratedValue(statery=Generation.AUTO)
+c. @GeneratedValue(statery=GenerationType.AUTO)
+d. @ID(strategy="GenerationType.AUTO")
+
+ANS: c
+
+5. Which method is used to fetch an Object from the DB in Hibernate Application
+(Select One)
+
+a. EmtityManager.find(id); 
+b. EntityManeger.findObject(id)
+c. EntityManager.find(<Entity Class>,id);
+d. EntityManager.fetch(<Entity Class>); 
+
+ANS: c
+
+6. Consider the following URL 
+
+http://localhost:8888/MyProject?x=5
+
+what is the correct way to read the value of variable 'x' from URL in servlet?
+(Select One)
+
+a. request.getAttribute("x");
+b. request.getParameter("x");
+c. response.getAttribute("x");
+d. response.getParameter("x");
+
+ANS: b
+
+7. Harry wants to pass the data from Servlet to JSP. Which is the correct option to do so?
+(Select One)
+
+a. SET the parameter in Servlet and read it in JSP 
+b. SET the attribute in Servlet and read it in JSP 
+c. Save the value in database and fetch it in JSP  
+d. none of the above 
+
+ANS: b
+
+8. Ronald wants to execute parameterized queries in his JDBC program. Which Interface/Class should be used to do so?
+(Select One)
+
+a. ParameterizedStatement
+b. PreparedStatement
+c. Statement
+d. All kinds of statements 
+
+ANS: b
+
+9. Consider the below given code snippet
+@Entity
+class Employee{
+  
+  //here
+  Department department; 
+}
+
+@Entity
+class Department{
+
+}
+
+What will you insert //here in the above code to ensure that a foreign key is created in Employee class
+(Select One)
+
+a. @OneToMany
+b. @ManyToOne
+c. @ManyToMany
+d. As it is, the code will create a foreign key, no changes needed. 
+
+ANS: b
+
+10. Hermione wants to create a table 'stock_details' in the database. She has created an entity class for it as shown below:
+
+@Entity   //Line 1
+		   //Line 2
+public class Stock { 
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id; 
+
+	private Integer quantity;  
+} 
+
+what should hermione do in this entity class to ensure that the name of the table is 'stock_details' in the DB. 
+(Select One)
+
+a. She must change Line 1 to @Entity(name="stock_details")
+b. She must add an annotation @Table(name="stock_details") at Line 2 
+c. She must add an annotation @Table("stock_details") at Line 2 
+d. She cannot change the name of the table using any JPA Annotation. 
+
+ANS: b
+
+11. 
+2. Publishing an application’s data as a REST service requires.
+a) @RequestMapping
+b) @PathVariable
+c) All of the mentioned
+d) None of the mentioned
+
+ANS: c
+
+12. 
+which Annotation is added as an input parameter to the handler method to read the input.
+
+a) @PathVariable
+b) @Path
+c) @PathLocale
+d) None of the mentioned
+
+ANS: a
+
+13. 
+What is Dependency Injection? 
+a. A design pattern which implements Inversion of Control for software applications.
+b. One of the spring module.
+c. A technique to get dependencies of any project.
+d. Used to promote tight coupling in code.
+
+ANS: a
+14. 
+To perform update operation through REST API, which RequestMethod should be used?
+
+a. GET
+b. POST
+c. PUT
+d. DELETE
+
+ANS: c
+
+15. 
+Consider the following URL:
+http://www.example.com?name=john
+
+TO read the value john which annotation should be used?
+
+a. @PathVariable
+b. @RequestBidy
+c. @RequestParam
+d. Any of the above option works
+
+ANS: c
+
+16. 
