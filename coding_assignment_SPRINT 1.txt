@@ -1,0 +1,36 @@
+Coding Assignment: Spring 1
+
+Create a Spring Boot project with hibernate as ORM, JPA as Persistence API, PostGres as database.
+
+Q1. Create an Entity Employee with following instance variables. 
+
+id int, 
+name String, 
+salary double,
+city String
+
+Create a Department Entity with following instance variables.
+
+id int
+name String 
+
+Establish relationship between Employee and Department with 
+1 Department having Many Employees. 
+
+Q2. 
+a. Create a POST API to ADD Department record
+b. Create a POST API to ADD Employee Record. Read departmentID as Path Variable. 
+
+Q3.
+a. Create a GET API to display all employees along with their respective departments
+b. Create a GET API with display employee based on employeeID. Read ID as Path Variable. 
+
+Q4. 
+a. Create GET API to display all employees based on departmentId. Read departmentID as Path variable. 
+b. Create a PUT API wo update the details of Employee based on given ID. 
+
+Q5. 
+a. Create a DELETE API to Delete Employees based on employeeID. 
+b. Create a DELETE API to delete Department based on departmentID.
+
+

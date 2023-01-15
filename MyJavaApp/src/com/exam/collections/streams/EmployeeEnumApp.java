@@ -74,9 +74,14 @@ class EmployeeInfo{
 		return list;
 	}
 	
-	public boolean isCharacterPresentInAllNames(Collection<Employee> entities, String character){
-		return false;
+	public boolean isCharacterPresentInAllNames(Collection<Employee> entities, String ch){
+		boolean match = entities.stream()
+							.allMatch(e->e.getName().startsWith(ch));
+		return match;
 	}
 }
 
-  
+  // do this on eclipse until we have no stuckpoint 
+  // start working on deSelect platform and pass the test cases 
+
+	//Unit testing 
