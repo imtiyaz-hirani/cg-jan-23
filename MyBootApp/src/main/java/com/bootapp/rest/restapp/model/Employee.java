@@ -42,8 +42,8 @@ public class Employee {
 	private Gender gender; 
 	
 	@ManyToOne
-	private Department department;
-	
+	private Department department;   
+	 
 	@ManyToMany
 	private List<Project> projects;  //id: 1, pid:[1,2,7]
 	

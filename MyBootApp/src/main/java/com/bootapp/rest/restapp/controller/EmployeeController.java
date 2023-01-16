@@ -1,6 +1,7 @@
 package com.bootapp.rest.restapp.controller;
 
 import java.time.LocalDate;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -46,4 +47,33 @@ public class EmployeeController {
 		
 		return ResponseEntity.status(HttpStatus.OK).body("Employee Posted..");
 	}
+	
+	/* Get API
+	  display all employees on the basis of department ID
+	  PathVariable: did  */
+	
+	@GetMapping("/api/employee/department/{did}")
+	public List<Employee> showEmployeesByDeptId(@PathVariable("did") int did) {
+		List<Employee> list = employeeService.getEmployeeByDepartmentId(did);
+		return list;
+	}
+	
+	/* GET: Display employees earning salary more than given salary
+	 * and belong to given city  */
+	
+	@GetMapping("/api/employee/salary/city/{salary}/{city}")
+	public List<Employee> getEmployeesBySalaryAndCity(
+			@PathVariable("salary") double salary, 
+			@PathVariable("city") String city) {
+		
+		List<Employee> list = employeeService.getEmployeesBySalaryAndCity(salary,city);
+		return list; 
+	}
 }
+
+
+
+
+
+
+
