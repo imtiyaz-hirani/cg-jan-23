@@ -13,6 +13,8 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import com.bootapp.rest.restapp.enums.Gender;
 
@@ -35,7 +37,7 @@ public class Employee {
 	
 	@Column(name="emp_joining_date")
 	private LocalDate joiningDate;
-
+ 
 	@Enumerated(EnumType.STRING)
 	private Gender gender; 
 	
