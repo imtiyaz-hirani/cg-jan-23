@@ -1,0 +1,45 @@
+
+Banking System
+--------------
+
+Customer(id,name,city,pan,contact,email)
+
+Account(id,type,interestRate,annualCharges)
+
+[Enum]AccountType type{ SAVING,BUSINESS,DMAT }
+
+Loan(id,type,interestRate,tenure,amount)
+
+[Enum]LoanType type {CAR_LOAN,HOUSE_LOAN,PERSONAL_LOAN}
+
+
+Business Rules
+--------------
+Customer has an Account [M:N]
+Loan belongs to Customer [1 customer can have many loans]
+
+Relationship table
+------------------
+CustomerAccount(id,accountNumber, Customer customer, Account account)
+
+[1 customer can have many loans]
+
+Add [Customer customer]: @ManyToOne to Loan class. 
+
+
+Set of APIs
+-----------
+CRUD Operations
+===============
+1. Create POST,GetALL, GetById, PUT, DELETE for customer
+2. Create POST,GetALL, GetById, PUT, DELETE for account
+3. Create POST,GetALL, GetById, PUT, DELETE for loan
+
+Business APIs
+=============
+1. Customer gets an Account : POST API assign account to customer 
+2. Customer applies for a Loan : POST 
+3. Get all customers on the basis of Loan_Type 
+4. Display stats for customer taking loans as per Loan_Type 
+5. Get all Customers on the basis of ACCOUNT_TYPE
+6. 
