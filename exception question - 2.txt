@@ -1,0 +1,89 @@
+Job Agency
+Coding
+Description
+
+Case Study:
+
+You have to create business logic that simulates a job agency trying to search for openings at a company. The company has the following requirements from the candidates for their offerings:
+
+    The candidate must be atleast 19 years of age. Otherwise, a NotEligibleException needs to be thrown with message "You are underage for any job"
+    If the candidate is atleast 21 and the highest qualification is a B.E, then he/she is eligible for the role of a junior developer. In this case, a string needs to be returned as "We have openings for junior developer"
+    The candidate is atleast 26 years of age and the highest qualification is an M.S or a PhD, then he/she is eligible for the role of a senior developer. In this case, a string needs to be returned as "We have openings for senior developer"
+    If the candidate is atleast 19 years of age and the highest qualification is not any of B.E, M.S or PhD, then an exception named NotEligibleException needs to be thrown with the message "We do not have any job that matches your qualifications"
+    For all other cases, a string needs to be returned as "Sorry we have no openings for now"
+    You are supposed to create a class called CompanyJobRepository, which has a static method getJobPrediction() to meet the above requirements.
+
+Your task here is to implement a Java code based on the following specifications. Note that your code should match the specifications in a precise manner. Consider default visibility of classes, data fields and methods unless mentioned otherwise.
+
+class definitions:
+?class CompanyJobRepository :
+  ?method definitions :
+  ?  static getJobPrediction(int age, String highestQualification):
+      return type: String      
+
+class? Source :
+ visibility: public
+  ?method definitions :
+    ?searchForJob(int age, String highestQualification):
+       return type: String
+       visibility: public?
+
+Task
+
+On the basis of above case study implement the below classes and methods:
+
+class CompanyJobRepository
+
+-Implement the below methods for CompanyJobRepository
+
+-static String getJobPrediction(int age, String highestQualification):
+
+    Refer the case study above for the business logic
+
+class Source
+
+-Implement the below methods for Source
+
+-String searchForJob(int age, String highestQualification):
+
+    if age >= 200 or age <= 0, throw NotEligibleException with the message "The age entered is not typical for a human being"
+    Otherwise, get the job predictions from CompanyJobRepository.
+    You have to handle the NotEligibleException thrown by getJobPrediction(), in which case you have to return the message of the exception caught.
+
+Class NotEligibleException
+
+    Define custom exception class NotEligibleException by extending the Exception class.
+    Define a parameterized constructor with a String argument to pass the message to the super class.
+
+NOTE
+
+    You can make suitable function calls and use RUN CODE button to check your main() method output.
+
+Execution time limit
+10 seconds
+
+
+
+
+
+
+
+
+
+-------------GIVEN CODE ------------------
+
+
+
+
+
+class CompanyJobRepository {
+
+}
+
+public class Source {
+	public static void main(String args[] )  {
+		/* Enter your code here. Read input from STDIN. Print output to STDOUT */
+	}
+}
+class NotEligibleException extends Exception {
+}
