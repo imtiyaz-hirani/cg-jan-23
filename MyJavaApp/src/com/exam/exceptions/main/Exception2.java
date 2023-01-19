@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Exception2 {
+	
 	String searchForJob(int age, String highestQualification) throws NotEligibleException {
 		if(age >= 200 || age <= 0) {
 			throw new NotEligibleException("The age entered is not typical for a human being");
@@ -19,22 +20,22 @@ public class Exception2 {
 
 class CompanyJobRepository {
 	static String getJobPrediction(int age, String highestQualification) throws NotEligibleException{
-			if(age < 19) {
+			if(age < 19) { //validation
 				throw new NotEligibleException("You are underage for any job");
 			}
 			
-			if(age >= 21 && highestQualification.equalsIgnoreCase("B.E")) {
+			if(age >= 21 && highestQualification.equalsIgnoreCase("B.E")) { //logic
 				return "We have openings for junior developer";
 			}
 			
-			if(age >= 26 && 
+			if(age >= 26 &&  
 					(highestQualification.equalsIgnoreCase("M.S") || highestQualification.equalsIgnoreCase("PhD"))) {
-				return "We have openings for senior developer";
+				return "We have openings for senior developer"; //logic
 			}
 			
 			List<String> list = Arrays.asList("B.E", "M.S" ,"PhD");
 			
-			if(age >= 19 && (!list.contains(highestQualification))) {
+			if(age >= 19 && (!list.contains(highestQualification))) { //validation
 				throw new NotEligibleException("We do not have any job that matches your qualifications");
 			}
 			
